@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>554</width>
+    <height>728</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="SetgroupBox_Cal">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>51</y>
+      <width>231</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="title">
+     <string>Settings COM </string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QGroupBox" name="ParComgroupBox_Cal">
+         <property name="title">
+          <string>Parameter COM</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <item>
+             <widget class="QLabel" name="BaudRateLabel_Cal">
+              <property name="text">
+               <string>BaudRate</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="BoudrateBox_Cal"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QLabel" name="DataBitsLabel_Cal">
+              <property name="text">
+               <string>DataBits</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="DataBitsBox_Cal"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QLabel" name="ParityLabel_Cal">
+              <property name="text">
+               <string>Parity</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="ParityBox_Cal"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <widget class="QLabel" name="StopBitsLabel_Cal">
+              <property name="text">
+               <string>StopBits</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="StopBitsBox_Cal"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QLabel" name="FlowControlLabel_Cal">
+              <property name="text">
+               <string>FlowControl</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="FlowControlBox_Cal"/>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>231</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Select COM</string>
+    </property>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <item>
+       <widget class="QLabel" name="COMLabel_Cal">
+        <property name="text">
+         <string>COM</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="SetComBox_Cal"/>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>20</y>
+      <width>231</width>
+      <height>461</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>H4-7</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>510</y>
+      <width>491</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Test</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>30</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Send</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>460</y>
+      <width>132</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_7">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Open Port</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>Connect</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>570</y>
+      <width>77</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_9">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>U, V</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDoubleSpinBox" name="doubleSpinBox"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>540</y>
+      <width>174</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_10">
+     <item>
+      <widget class="QCheckBox" name="checkBox_DC">
+       <property name="text">
+        <string>DC</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox">
+       <property name="text">
+        <string>AC</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>610</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_11">
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>F, kHz</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="spinBox"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>554</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
